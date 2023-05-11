@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Join us to start"
+         />
+    <TextView
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crypto trade!"
+        />
+    <TextView
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Discover your perfect Crypto currencies"
+        />
+    <TextView
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="350dp"
+        android:background="@drawable/edt_style"
+
+        android:hint="Name"
+        android:paddingLeft="10dp"
+        android:layout_height="50dp">
+
+    </EditText>
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="350dp"
+        android:background="@drawable/edt_style"
+
+        android:hint="Email"
+        android:paddingLeft="10dp"
+        android:layout_height="50dp">
+
+    </EditText>
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="350dp"
+        android:background="@drawable/edt_style"
+      android:inputType="textPassword"
+        android:hint="Password"
+        android:paddingLeft="10dp"
+        android:layout_height="50dp">
+
+    </EditText>
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="350dp"
+        android:background="@drawable/edt_style"
+       android:inputType="number"
+        android:hint="Phone Number"
+        android:paddingLeft="10dp"
+        android:layout_height="50dp">
+
+    </EditText>
+    <RadioGroup
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+
+            android:textSize="20sp"
+            android:text="I agree with Terms Condition  Privacy Policy"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+        </RadioButton>
+        <RadioButton
+            android:layout_marginTop="5dp"
+            android:text="New Account"
+            android:textSize="20sp"
+            android:checked="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+        </RadioButton>
+
+
+
+
+    </RadioGroup>
+
+
+    <EditText
+        android:textAlignment="center"
+        android:layout_marginStart="60dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+
+        android:background="@drawable/joinus_login"
+        android:text="Join us">
+
+    </EditText>
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="50dp"
+        android:textSize="20dp"
+        android:text="Do have already account?Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+</LinearLayout>
